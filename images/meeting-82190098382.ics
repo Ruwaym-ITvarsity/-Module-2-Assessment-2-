@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:Africa/Maputo
+LAST-MODIFIED:20250121T082933Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Africa/Maputo
+X-LIC-LOCATION:Africa/Maputo
+BEGIN:STANDARD
+TZNAME:CAT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0200
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20250309T163519Z
+DTSTART;TZID=Africa/Maputo:20250312T110000
+DTEND;TZID=Africa/Maputo:20250312T114500
+SUMMARY:Weekly Webinar
+EXDATE;TZID=Africa/Maputo:20250219T110000
+RRULE:FREQ=WEEKLY;WKST=SU;INTERVAL=1;BYDAY=WE
+UID:EVENTk0jw4520Q2Kf9jNEE_Lv-Q@zoom.us
+TZID:Africa/Maputo
+DESCRIPTION:Bilal Kathrada is inviting you to a scheduled Zoom meeting.\n
+ Join Zoom Meeting\nhttps://us02web.zoom.us/j/82190098382?pwd=fEnbi9uLrC3
+ eu6GxdGD6oFpgFrx0Bx.1\n\nMeeting ID: 821 9009 8382\nPasscode: 218751\n\n
+ ---\n\nOne tap mobile\n+27875503946\,\,82190098382#\,\,\,\,*218751# Sout
+ h Africa\n+27875517702\,\,82190098382#\,\,\,\,*218751# South Africa\n\n-
+ --\n\nDial by your location\n• +27 87 550 3946 South Africa\n• +27 87 55
+ 1 7702 South Africa\n• +27 21 426 8190 South Africa\n• +27 21 426 8191 S
+ outh Africa\n• +1 386 347 5053 US\n• +1 507 473 4847 US\n• +1 564 217 20
+ 00 US\n• +1 646 931 3860 US\n• +1 669 444 9171 US\n• +1 669 900 6833 US 
+ (San Jose)\n• +1 689 278 1000 US\n• +1 719 359 4580 US\n• +1 929 205 609
+ 9 US (New York)\n• +1 253 205 0468 US\n• +1 253 215 8782 US (Tacoma)\n• 
+ +1 301 715 8592 US (Washington DC)\n• +1 305 224 1968 US\n• +1 309 205 3
+ 325 US\n• +1 312 626 6799 US (Chicago)\n• +1 346 248 7799 US (Houston)\n
+ • +1 360 209 5623 US\n\nMeeting ID: 821 9009 8382\nPasscode: 218751\n\nF
+ ind your local number: https://us02web.zoom.us/u/kbMdLo1V0u\n\n
+LOCATION:https://us02web.zoom.us/j/82190098382?pwd=fEnbi9uLrC3eu6GxdGD6oF
+ pgFrx0Bx.1
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
