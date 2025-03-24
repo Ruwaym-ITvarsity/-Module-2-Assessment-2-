@@ -12,8 +12,8 @@
     
 body{
     background: url(images/background.jpg);
+    height: 100%;
     background-size: cover;
-        
 }
 
 #main img{
@@ -103,22 +103,35 @@ body{
 #info-box{
     background: rgba(255,255,255,8);
     padding-top: 120px;
+    padding-bottom: 20px;
 }
 #info-box a{
     text-decoration: none;
     color: midnightblue;
 }
 #info-box h3{
-    text-align: center;
+    text-align: left;
     font-weight: 500;
 }
 #info-box p{
     color: midnightblue;
-    text-align: center;
+    text-align: left;
     font-weight: 500;
 }
 #info-box img{
-    padding-left: 130px;
+    padding-left: 0px;
+}
+#info-box h2{
+    text-align: left;
+}
+.regal-link{
+    padding-bottom: 40px;
+    height: 30px;
+    background-color: darkorange;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
 /*=============MOVIES&SHOPS===========*/
 #movies{
@@ -131,16 +144,16 @@ body{
     color: midnightblue;
 }
 #movies h3{
-    text-align: center;
+    text-align: left;
     font-weight: 500;
 }
 #movies p{
     color: midnightblue;
-    text-align: center;
+    text-align: left;
     font-weight: 500;
 }
 #movies img{
-    padding-left: 130px;
+    padding-left: ;
     width: 200px;
     height:344px;
 }
@@ -151,7 +164,7 @@ body{
     padding-top: 120px;
 }
 #data-movies h2{
-    text-align: center;
+    text-align: left;
 }
 #data-text{ 
     background: rgba(255,255,255,8);
@@ -159,6 +172,7 @@ body{
 } 
 #data-movies table{
     text-align: left;
+    
 }
 #movie-time tr{
     color: azure;
@@ -171,28 +185,16 @@ body{
     height: 300px;
     padding-top: 120px;
     
-    
 }
 #data-shops h1{
-    text-align: center;
+    text-align: left;
 }
 #shop-img img{
-    width: 175px;
+    width: 200px;
     height: 250px;
     padding-top: 0px
 }
-#info-box{
-    padding-bottom: 20px;
-}
-.regal-link{
-    padding-bottom: 40px;
-    height: 30px;
-    background-color: darkorange;
-    color: white;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-}
+
 /*=============ABOUTnCONTACT===========*/
 #about{
     background: rgba(255,255,255,8);
@@ -201,11 +203,11 @@ body{
 }
 #about table{
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0px;
+    
 }
 #about h2{
-    text-align: center;
+    text-align: left;
 }
 #about-img img{
     height: 200px;
@@ -272,4 +274,10 @@ textarea{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+#msg img{
+    height: 400px;
+    width: 350px;
+    padding-top: 150px;
+    margin-left: 60px;
 }
